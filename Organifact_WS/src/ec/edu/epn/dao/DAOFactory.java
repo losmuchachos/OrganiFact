@@ -13,6 +13,12 @@ public abstract class DAOFactory {
     }
 
     public abstract UsuarioDAO getUsuarioDAO();
+    public abstract CategoriaDAO getCategoriaDAO();
+    public abstract ClasificacionDAO getClasificacionDAO();
+    public abstract ProveedorDAO getpProveedorDAO();
+    
+    
+    
     
    
     
